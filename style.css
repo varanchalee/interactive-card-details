@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.container {
+    display: flex;
+    max-width: 1440px;
+    height: 100vh;
+}
+
+div.bg-black{
+    width: 25%;
+    height: 100vh;
+    background-image: url(images/bg-main-desktop.png);
+    position: relative;
+}
+
+.card-front{
+    width: 110%;
+    position: absolute;
+    top: calc(15%);
+    left: calc(20%);
+}
+
+.card-front img{
+    position: relative;
+    width: 100%;
+}
+
+.credit-card-details{
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    
+
+    position: absolute;
+    top: 0;
+}
+
+.credit-card-logo{
+    width: 20%;
+}
+
+.card-logo{
+    width: 100%;
+}
+.card-back{
+    width: 110%;
+    position: absolute;
+    top: calc(50%);
+    left: calc(50%);
+}
+
+.card-back img{
+    width: 110%;
+}
